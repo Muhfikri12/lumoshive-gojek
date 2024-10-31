@@ -123,9 +123,8 @@ func main() {
 			fmt.Println("Opsi tidak valid. Silakan coba lagi.")
 		}
 
-		// Menunggu pengguna menekan Enter sebelum kembali ke menu
 		fmt.Println("\nTekan Enter untuk kembali ke menu...")
-		fmt.Scanln() // Tunggu pengguna menekan Enter
+		fmt.Scanln() 
 	}
 }
 

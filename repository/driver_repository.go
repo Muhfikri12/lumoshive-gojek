@@ -63,7 +63,7 @@ func (god *RepositoryDriver) HighestGetOrder() ([]model.GetOrder, error) {
 		group by 
 			d.id, month
 		order by
-			month, total_orders desc`
+			total_orders desc`
 
 	rows, err := god.DB.Query(query)
 	if err != nil {
